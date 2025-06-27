@@ -6,6 +6,11 @@
     background-color: #3F445A;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Navigation Bar */
 
 .nav-bar {
