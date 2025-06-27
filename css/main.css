@@ -3,7 +3,7 @@
 }
 
 .background-grey {
-    background-color: #3F445A;
+    background-color: blue;
 }
 
 * {
@@ -23,9 +23,14 @@
     text-align: center;
 }
 
+.nav-list {
+    float: none;
+}
+
 .nav-link {
     display: inline-block;
-    margin: 50-px;
+    padding: 20-px;
+    text-align: center;
     color: #fbd3e8;
     border-right: 2px double solid black;
 }
