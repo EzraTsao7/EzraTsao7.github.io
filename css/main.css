@@ -18,6 +18,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 20px;
     background-color: grey;
     border: 2px solid black;
     text-align: center;
@@ -25,18 +26,20 @@
 
 .nav-list {
     display: inline-block;
-    border-right: 2px double solid black;
-    margin: 20px;
+    border-right: 2px solid black;
+}
+
+.current-nav-list {
+    background-color: black;
 }
 
 .nav-link {
     color: #fbd3e8;
+    text-align: center;
+    padding: 30px;
 }
 
 .nav-link:hover {
-    color: black;
-}
-
-.current-nav-link {
+    color: aliceblue;
     background-color: black;
 }
