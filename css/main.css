@@ -3,7 +3,7 @@
 }
 
 .background-grey {
-    background-color: blue;
+    background-color: #3F445A;
 }
 
 * {
@@ -18,17 +18,16 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #3F445A;
+    background-color: grey;
     border: 2px solid black;
     text-align: center;
 }
 
 .nav-list {
-    float: none;
+    display: inline-block;
 }
 
 .nav-link {
-    display: inline-block;
     padding: 20-px;
     text-align: center;
     color: #fbd3e8;
