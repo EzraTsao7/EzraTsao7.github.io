@@ -5,3 +5,18 @@
 .background-grey {
     background-color: #3F445A;
 }
+
+/* Navigation Bar */
+
+.nav-bar {
+    position: fixed;
+    background-color: #3F445A;
+}
+
+.nav-link {
+    color: #fbd3e8;
+}
+
+.nav-link:hover {
+    color: black;
+}
