@@ -25,13 +25,12 @@
 
 .nav-list {
     display: inline-block;
+    border-right: 2px double solid black;
+    margin: 20px;
 }
 
 .nav-link {
-    padding: 20-px;
-    text-align: center;
     color: #fbd3e8;
-    border-right: 2px double solid black;
 }
 
 .nav-link:hover {
