@@ -9,14 +9,26 @@
 /* Navigation Bar */
 
 .nav-bar {
+    list-style-type: none;
     position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #3F445A;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .nav-link {
+    display: inline-block;
+    margin: 50-px;
     color: #fbd3e8;
+    border-right: 2px double solid black;
 }
 
 .nav-link:hover {
     color: black;
+}
+
+.current-nav-link {
+    background-color: black;
 }
